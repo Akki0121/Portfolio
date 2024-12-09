@@ -92,7 +92,7 @@ function About() {
           >
             1.User Dashboard (React.js & Tailwind CSS)
           </a>
-          <ul className="list-disc list-inside text-gray-700 mt-4">
+          <ul className="list-disc list-inside text-gray-700 mb-8 space-y-1">
             <li>
               <span className="font-semibold">Frontend Development:</span> Built
               a responsive and dynamic User Dashboard, improving interface
@@ -112,11 +112,11 @@ function About() {
           </ul>
           <a
             href="https://github.com/Akki0121"
-            className="text-2xl text-gray-700 mt-4 max-w-5xl"
+            className="text-2xl text-gray-700"
           >
             2.Calculator with Dark mode (HTML & CSS)
           </a>
-          <ul className="list-disc list-inside text-gray-700 mt-4">
+          <ul className="list-disc list-inside text-gray-700 max-w-5xl space-y-1">
             <li>
               Designed and developed a functional calculator using{" "}
               <span className="font-semibold">HTML, CSS, and JavaScript,</span>{" "}
