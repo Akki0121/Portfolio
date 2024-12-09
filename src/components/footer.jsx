@@ -12,6 +12,7 @@ export default function Footer() {
               <img src={Logo} className="mr-3 w-36 rounded-full" alt="Logo" />
             </Link>
           </div>
+
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
@@ -30,6 +31,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
+
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
                 Follow us
@@ -55,7 +57,8 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+
+            {/* <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
                 Legal
               </h2>
@@ -71,14 +74,15 @@ export default function Footer() {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
+
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
             © 2023
-            <a href="https://hiteshchoudhary.com/" className="hover:underline">
+            <a href="/" className="hover:underline">
               Ankit
             </a>
             . All Rights Reserved.

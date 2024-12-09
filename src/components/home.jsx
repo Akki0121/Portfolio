@@ -1,17 +1,14 @@
 import React from "react";
-import Image from "./assets/logo.jpg";
+import Image from "./assets/hero-img-normal.webp";
 import { Link } from "react-router-dom";
 
 export default function Home() {
-  const handlecontactbtn = () => {
-    window.location.href = "mailto:ankitkmr2657@gmail.com";
-  };
   return (
     <>
-      <div className="md:flex m-10 p-10 font-mono">
+      <div className="md:flex m-10 px-10 py-5 pt-10 font-mono">
         <div className="comments md:flex-1">
-          <h1 className="text-5xl">hi,I'm Ankit Singh</h1>
-          <h3 className="text-3xl">FULL Stack Developer</h3>
+          <h1 className="text-5xl font-bold">hi,I'm Ankit Singh</h1>
+          <h3 className="text-3xl font-semibold">FULL Stack Developer</h3>
           <p className="font-medium">
             Proficient Full-Stack Developer with expertise in MERN stack
             (React.js, Node.js, MongoDB, Express.js) and responsive UI design
@@ -24,7 +21,6 @@ export default function Home() {
           <div className="relative md:mt-20 my-4">
             <a
               href="mailto:ankitkmr2657@gmail.com"
-              target="_top"
               className="bg-orange-700 py-3 px-6 rounded-lg text-white hover:shadow-lg hover:shadow-orange-400"
             >
               Contact
@@ -33,7 +29,7 @@ export default function Home() {
         </div>
         <div className="imgae md:flex-1 p-5 flex items-center justify-center ">
           <img
-            className="md:-mt-28 h-5/6 bg-slate-500"
+            className="md:-mt-36 h-[600px]"
             src={Image}
             alt="Profile Image"
           />
