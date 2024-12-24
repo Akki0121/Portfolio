@@ -1,7 +1,8 @@
 import React from "react";
 import Ankit from "./assets/about-img.jpg";
 import { FaPhoneVolume, FaLinkedin, FaLocationDot } from "react-icons/fa6";
-import { IoMdMailUnread } from "react-icons/io";
+import { IoMdMail } from "react-icons/io";
+import { IoMail } from "react-icons/io5";
 
 function About() {
   return (
@@ -27,7 +28,7 @@ function About() {
               <a href="tel:+917042525596">+91-7042525596</a>
             </p>
             <p className="flex gap-1 items-center hover:text-orange-600">
-              <IoMdMailUnread />
+              <IoMail />
               <a href="mailto:ankitkmr2657@gmail.com">@-Mail</a>
             </p>
             <p className="flex gap-1 items-center hover:text-orange-600">
@@ -171,8 +172,9 @@ function About() {
           </p>
           <a
             href="mailto:ankitkmr2657@gmail.com"
-            className="inline-block bg-orange-700 text-white py-2 px-6 rounded-lg mt-4 hover:ring-4 hover:ring-orange-300"
+            className="flex items-center gap-1 w-max bg-orange-700 text-white py-2 px-6 rounded-lg mt-4 hover:ring-4 hover:ring-orange-300"
           >
+            <IoMdMail />
             Contact
           </a>
         </div>

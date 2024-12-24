@@ -3,13 +3,13 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 md:flex ">
         <div className="px-6 mr-2 bg-gray-100 sm:rounded-lg">
           <h1 className="text-3xl sm:text-4xl text-gray-800 font-extrabold tracking-tight">
             Get in touch:
           </h1>
           <p className="text-normal text-lg sm:text-xl font-medium text-gray-600 mt-2">
-            Fill in the form to start a conversation
+            Contact through E-mail or Phone to start a conversation
           </p>
 
           <div className="flex items-center mt-8 text-gray-600">
@@ -35,7 +35,7 @@ export default function Contact() {
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
-            <div className="ml-4 text-md tracking-wide font-semibold w-40">
+            <div className="ml-4 text-md tracking-wide font-semibold">
               Dasna, Ghaziabad, Uttar Pradesh, India (201015)
             </div>
           </div>
@@ -58,7 +58,7 @@ export default function Contact() {
               />
             </svg>
             <div className="ml-4 text-md tracking-wide font-semibold w-40">
-              +91 7042525596
+              <a href="tel:+917042525596">+91-7042525596</a>
             </div>
           </div>
 
@@ -80,12 +80,12 @@ export default function Contact() {
               />
             </svg>
             <div className="ml-4 text-md tracking-wide font-semibold w-40">
-              ankitkmr2657@gmail.com
+              <a href="mailto:ankitkmr2657@gmail.com">@-Mail</a>
             </div>
           </div>
         </div>
 
-        <form className="p-6 flex flex-col justify-center">
+        {/* <form className="p-6 flex flex-col justify-center">
           <div className="flex flex-col">
             <label for="name" className="hidden">
               Name
@@ -131,7 +131,7 @@ export default function Contact() {
           >
             Submit
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   );
