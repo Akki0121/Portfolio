@@ -6,8 +6,8 @@ import { IoMdMailUnread } from "react-icons/io";
 function About() {
   return (
     <div className="bg-gray-100 min-h-screen w-full p-5">
-      <div className="max-w-full mx-auto pl-28 p-8 font-mono">
-        <div className=" flex gap-10">
+      <div className="max-w-full mx-auto sm:pl-28 p-8 font-mono shadow shadow-gray-600 rounded-lg ">
+        <div className=" sm:flex gap-10 ">
           <div className="flex-3">
             <img
               src={Ankit}
@@ -15,7 +15,7 @@ function About() {
               className="w-48 h-48 rounded-full mx-auto border-2 border-lime-800 shadow-lg shadow-lime-400 object-center"
             />
           </div>
-          <div className="flex-1">
+          <div className="sm:flex-1 ">
             <h1 className="text-3xl font-bold text-gray-800 mt-4">
               Ankit Singh
             </h1>
@@ -41,7 +41,7 @@ function About() {
           </div>
         </div>
 
-        <section className="mt-8">
+        <section className="mt-8 sm:px-6 py-2">
           <h2 className="text-4xl font-bold text-gray-800">About Me</h2>
           <p className="text-gray-700 mt-4 max-w-5xl">
             Hi! I'm Ankit Kumar, a passionate web developer with experience in
@@ -53,7 +53,7 @@ function About() {
           </p>
         </section>
 
-        <section className="mt-8 text-gray-700">
+        <section className="mt-8 text-gray-700  sm:px-5 py-2">
           <h2 className="text-4xl font-bold text-gray-800">Experience</h2>
           <h3 className="text-2xl font-semibold ">Sedulous Softtech.</h3>
           <h3 className="text-xl font-medium ">
@@ -84,7 +84,7 @@ function About() {
           </ul>
         </section>
 
-        <section className="mt-8">
+        <section className="mt-8  sm:px-6 py-2">
           <h2 className="text-4xl font-bold text-gray-800">Projects</h2>
           <a
             href="https://github.com/Akki0121"
@@ -138,7 +138,7 @@ function About() {
           </ul>
         </section>
 
-        <section className="mt-8">
+        <section className="mt-8  sm:px-6 py-2">
           <h2 className="text-4xl font-bold text-gray-800">Skills</h2>
           <ul className="list-disc list-inside text-gray-700 mt-4">
             <li>Frontend Development: HTML, CSS, JavaScript, React</li>
@@ -149,7 +149,7 @@ function About() {
           </ul>
         </section>
 
-        <section className="mt-8">
+        <section className="mt-8  sm:px-6 py-2">
           <h2 className="text-4xl font-bold text-gray-800">Fun Facts</h2>
           <ul className="list-disc list-inside text-gray-700 mt-4">
             <li>I love photography and capturing the beauty of nature.</li>
@@ -161,7 +161,7 @@ function About() {
           </ul>
         </section>
 
-        <div className="text-center mt-8">
+        <div className="sm:mt-8">
           <h3 className="text-lg font-bold text-gray-800">
             Let's Collaborate!
           </h3>
