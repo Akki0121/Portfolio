@@ -171,7 +171,7 @@ function About() {
           </p>
           <a
             href="mailto:ankitkmr2657@gmail.com"
-            className="inline-block bg-orange-700 text-white py-3 px-6 rounded-lg mt-4 hover:shadow-lg hover:shadow-orange-400"
+            className="inline-block bg-orange-700 text-white py-2 px-6 rounded-lg mt-4 hover:ring-4 hover:ring-orange-300"
           >
             Contact
           </a>
