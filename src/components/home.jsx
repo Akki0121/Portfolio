@@ -28,7 +28,7 @@ export default function Home() {
               <IoMdMail /> Contact Me
             </a>
             <a
-              href="./assets/AnkitSinghResume.pdf"
+              href="../public/AnkitSinghResume.pdf"
               download
               className="border-2 border-orange-700 hover:bg-orange-700 text-orange-700 hover:text-white p-3 rounded-lg font-semibold transition-all"
             >
