@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./assets/images (1).png";
 import { Link, NavLink } from "react-router-dom";
+import { IoMdMail } from "react-icons/io";
 
 export default function Header() {
   return (
@@ -23,8 +24,9 @@ export default function Header() {
             </Link> */}
             <Link
               to="mailto:ankitkmr2657@gmail.com"
-              className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+              className="flex items-center gap-1 text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 mr-2 focus:outline-none"
             >
+              <IoMdMail />
               Contact
             </Link>
           </div>

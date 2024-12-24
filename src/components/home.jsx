@@ -1,7 +1,6 @@
 import React from "react";
-import Image from "./assets/hero-img-normal.webp";
 import Ankit from "./assets/about-img.jpg";
-import { Link } from "react-router-dom";
+import { IoMdMail } from "react-icons/io";
 
 export default function Home() {
   return (
@@ -21,17 +20,17 @@ export default function Home() {
             Node.js). From backend to frontend, I bring web ideas to life with
             modern designs and clean code.
           </p>
-          <div className="flex justify-center md:justify-start gap-5">
+          <div className="flex justify-center text-sm md:justify-start gap-5">
             <a
               href="mailto:ankitkmr2657@gmail.com"
-              className="bg-orange-700 hover:bg-orange-800 text-white py-3 px-6 rounded-lg font-semibold transition-all"
+              className="flex items-center gap-1 border-2 border-orange-700 hover:bg-orange-700 text-orange-700 hover:text-white p-3 rounded-lg font-semibold transition-all"
             >
-              Contact Me
+              <IoMdMail /> Contact Me
             </a>
             <a
               href="./assets/Ankit Singh Resume.pdf"
               download
-              className="border-2 border-orange-700 hover:bg-orange-700 text-orange-700 hover:text-white py-3 px-6 rounded-lg font-semibold transition-all"
+              className="border-2 border-orange-700 hover:bg-orange-700 text-orange-700 hover:text-white p-3 rounded-lg font-semibold transition-all"
             >
               Download Resume
             </a>
